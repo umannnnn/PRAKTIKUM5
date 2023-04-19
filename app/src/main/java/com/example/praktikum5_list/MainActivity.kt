@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.setHasFixedSize(true)
 
         //ShowListMahasiswa()
-        //ShowGridMahasiswa()
+        ShowGridMahasiswa()
         ShowCardMahasiswa()
     }
 
