@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
+    <TextView
+        android:id="@+id/nama_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Nama Mahasiswa"
+        android:textAppearance="?android:textAppearanceMedium" />
+    <TextView
+        android:id="@+id/nim_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="NIM Mahasiswa"
+        android:textAppearance="?android:textAppearanceMedium" />
+    <TextView
+        android:id="@+id/telp_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Telp Mahasiswa"
+        android:textAppearance="?android:textAppearanceMedium" />
+</LinearLayout>
